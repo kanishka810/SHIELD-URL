@@ -1,0 +1,488 @@
+2025-02-23 06:21:54,902 - uvicorn.error - INFO - Started server process [200880]
+2025-02-23 06:21:54,905 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 06:21:54,905 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 06:21:54,909 - uvicorn.error - INFO - Started server process [200784]
+2025-02-23 06:21:54,913 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 06:21:54,913 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 06:21:55,070 - uvicorn.error - INFO - Started server process [189508]
+2025-02-23 06:21:55,074 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 06:21:55,074 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 06:24:58,293 - uvicorn.error - INFO - Started server process [192908]
+2025-02-23 06:24:58,293 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 06:24:58,293 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 06:24:58,315 - uvicorn.error - ERROR - [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-02-23 06:24:58,330 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-02-23 06:24:58,331 - uvicorn.error - INFO - Application shutdown complete.
+2025-02-23 06:27:36,223 - uvicorn.error - INFO - Started server process [202092]
+2025-02-23 06:27:36,223 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 06:27:36,223 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 06:27:36,223 - uvicorn.error - ERROR - [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-02-23 06:27:36,223 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-02-23 06:27:36,239 - uvicorn.error - INFO - Application shutdown complete.
+2025-02-23 06:36:27,212 - uvicorn.error - INFO - Started server process [177832]
+2025-02-23 06:36:27,212 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 06:36:27,212 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 06:36:27,212 - uvicorn.error - ERROR - [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-02-23 06:36:27,228 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-02-23 06:36:27,229 - uvicorn.error - INFO - Application shutdown complete.
+2025-02-23 06:37:22,356 - uvicorn.error - INFO - Started server process [192884]
+2025-02-23 06:37:22,356 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 06:37:22,356 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 06:47:56,423 - uvicorn.error - INFO - Started server process [201328]
+2025-02-23 06:47:56,424 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 06:47:56,425 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 06:47:56,426 - uvicorn.error - ERROR - [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-02-23 06:47:56,426 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-02-23 06:47:56,427 - uvicorn.error - INFO - Application shutdown complete.
+2025-02-23 06:51:28,283 - uvicorn.error - INFO - Started server process [194932]
+2025-02-23 06:51:28,283 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 06:51:28,283 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:08:44,895 - uvicorn.error - INFO - Started server process [195520]
+2025-02-23 07:08:44,903 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:08:44,909 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:08:45,130 - uvicorn.error - INFO - Started server process [210812]
+2025-02-23 07:08:45,149 - uvicorn.error - INFO - Started server process [209280]
+2025-02-23 07:08:45,159 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:08:45,188 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:08:45,193 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:08:45,215 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:08:45,247 - uvicorn.error - INFO - Started server process [197404]
+2025-02-23 07:08:45,279 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:08:45,288 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:08:46,864 - uvicorn.error - INFO - Started server process [165548]
+2025-02-23 07:08:46,879 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:08:46,889 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:18:02,542 - uvicorn.error - INFO - Started server process [218564]
+2025-02-23 07:18:02,542 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:18:02,542 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:18:02,655 - uvicorn.error - INFO - Started server process [218596]
+2025-02-23 07:18:02,655 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:18:02,655 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:18:02,772 - uvicorn.error - INFO - Started server process [218780]
+2025-02-23 07:18:02,788 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:18:02,792 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:18:02,874 - uvicorn.error - INFO - Started server process [210704]
+2025-02-23 07:18:02,874 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:18:02,874 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:18:02,941 - uvicorn.error - INFO - Started server process [210128]
+2025-02-23 07:18:02,941 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:18:02,941 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:18:47,060 - uvicorn.error - INFO - Started server process [219016]
+2025-02-23 07:18:47,060 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:18:47,060 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:18:47,075 - uvicorn.error - ERROR - [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-02-23 07:18:47,075 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-02-23 07:18:47,075 - uvicorn.error - INFO - Application shutdown complete.
+2025-02-23 07:21:24,243 - uvicorn.error - INFO - Started server process [219224]
+2025-02-23 07:21:24,243 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:21:24,243 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:21:24,243 - uvicorn.error - ERROR - [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-02-23 07:21:24,243 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-02-23 07:21:24,253 - uvicorn.error - INFO - Application shutdown complete.
+2025-02-23 07:21:49,314 - uvicorn.error - INFO - Started server process [220100]
+2025-02-23 07:21:49,314 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:21:49,314 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:46:05,207 - uvicorn.error - INFO - Started server process [212884]
+2025-02-23 07:46:05,223 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:46:05,223 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:46:05,274 - uvicorn.error - INFO - Started server process [216496]
+2025-02-23 07:46:05,299 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:46:05,304 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:46:05,289 - uvicorn.error - INFO - Started server process [212676]
+2025-02-23 07:46:05,311 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:46:05,314 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:46:05,412 - uvicorn.error - INFO - Started server process [216248]
+2025-02-23 07:46:05,412 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:46:05,412 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:46:05,434 - uvicorn.error - INFO - Started server process [216168]
+2025-02-23 07:46:05,437 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:46:05,445 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:46:05,461 - uvicorn.error - INFO - Started server process [215508]
+2025-02-23 07:46:05,471 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:46:05,471 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:16,607 - uvicorn.error - INFO - Started server process [195080]
+2025-02-23 07:47:16,624 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:16,624 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:16,652 - uvicorn.error - INFO - Started server process [215100]
+2025-02-23 07:47:16,682 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:16,684 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:16,744 - uvicorn.error - INFO - Started server process [216924]
+2025-02-23 07:47:16,752 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:16,752 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:17,628 - uvicorn.error - INFO - Started server process [209420]
+2025-02-23 07:47:17,697 - uvicorn.error - INFO - Started server process [198016]
+2025-02-23 07:47:17,697 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:17,701 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:17,718 - uvicorn.error - INFO - Started server process [201912]
+2025-02-23 07:47:17,718 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:17,725 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:17,697 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:17,737 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:52,636 - uvicorn.error - INFO - Started server process [198368]
+2025-02-23 07:47:52,649 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:52,652 - uvicorn.error - INFO - Started server process [212988]
+2025-02-23 07:47:52,670 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:52,670 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:52,712 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:52,943 - uvicorn.error - INFO - Started server process [212780]
+2025-02-23 07:47:52,954 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:52,954 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:52,964 - uvicorn.error - INFO - Started server process [197132]
+2025-02-23 07:47:52,976 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:52,982 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:53,198 - uvicorn.error - INFO - Started server process [212568]
+2025-02-23 07:47:53,205 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:53,208 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:53,216 - uvicorn.error - INFO - Started server process [212008]
+2025-02-23 07:47:53,262 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:53,286 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:57,796 - uvicorn.error - INFO - Started server process [213968]
+2025-02-23 07:47:57,802 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:57,808 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:58,266 - uvicorn.error - INFO - Started server process [215576]
+2025-02-23 07:47:58,268 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:58,269 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:58,308 - uvicorn.error - INFO - Started server process [212664]
+2025-02-23 07:47:58,318 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:58,318 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:58,341 - uvicorn.error - INFO - Started server process [221528]
+2025-02-23 07:47:58,357 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:58,358 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:58,458 - uvicorn.error - INFO - Started server process [216524]
+2025-02-23 07:47:58,465 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:58,465 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:47:58,481 - uvicorn.error - INFO - Started server process [84856]
+2025-02-23 07:47:58,487 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:47:58,487 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:54:09,478 - uvicorn.error - INFO - Started server process [221352]
+2025-02-23 07:54:09,496 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:54:09,500 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:54:09,841 - uvicorn.error - INFO - Started server process [213192]
+2025-02-23 07:54:09,854 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:54:09,854 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:54:09,872 - uvicorn.error - INFO - Started server process [214152]
+2025-02-23 07:54:09,887 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:54:09,905 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:54:09,974 - uvicorn.error - INFO - Started server process [212268]
+2025-02-23 07:54:09,974 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:54:09,974 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:54:10,048 - uvicorn.error - INFO - Started server process [212604]
+2025-02-23 07:54:10,051 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:54:10,059 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:54:10,132 - uvicorn.error - INFO - Started server process [10292]
+2025-02-23 07:54:10,132 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:54:10,132 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:54:18,011 - uvicorn.error - INFO - Started server process [221588]
+2025-02-23 07:54:18,011 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:54:18,015 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 07:54:18,016 - uvicorn.error - ERROR - [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-02-23 07:54:18,016 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-02-23 07:54:18,018 - uvicorn.error - INFO - Application shutdown complete.
+2025-02-23 07:55:54,232 - uvicorn.error - INFO - Started server process [213372]
+2025-02-23 07:55:54,232 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 07:55:54,232 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 08:34:20,966 - uvicorn.error - INFO - Started server process [229744]
+2025-02-23 08:34:20,966 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 08:34:21,112 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 08:34:21,179 - uvicorn.error - ERROR - [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-02-23 08:34:21,180 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-02-23 08:34:21,181 - uvicorn.error - INFO - Application shutdown complete.
+2025-02-23 08:34:44,516 - uvicorn.error - INFO - Started server process [230920]
+2025-02-23 08:34:44,516 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 08:34:44,516 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 08:36:15,719 - uvicorn.error - INFO - Started server process [227960]
+2025-02-23 08:36:15,719 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 08:36:15,734 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 08:36:15,747 - uvicorn.error - ERROR - [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-02-23 08:36:15,775 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-02-23 08:36:15,808 - uvicorn.error - INFO - Application shutdown complete.
+2025-02-23 08:37:14,159 - uvicorn.error - INFO - Started server process [232220]
+2025-02-23 08:37:14,174 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 08:37:14,176 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 08:37:14,177 - uvicorn.error - ERROR - [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-02-23 08:37:14,178 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-02-23 08:37:14,179 - uvicorn.error - INFO - Application shutdown complete.
+2025-02-23 08:49:47,557 - uvicorn.error - INFO - Started server process [17348]
+2025-02-23 08:49:47,557 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 08:49:47,588 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 08:55:29,476 - uvicorn.error - INFO - Started server process [218704]
+2025-02-23 08:55:29,477 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 08:55:29,477 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 08:58:13,496 - uvicorn.error - INFO - Started server process [5564]
+2025-02-23 08:58:13,496 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 08:58:13,496 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 09:00:28,350 - python - INFO - URL is safe: https://www.google.com
+2025-02-23 09:00:32,270 - python - INFO - URL is safe: https://www.oogle.com
+2025-02-23 09:00:33,434 - python - INFO - URL is safe: https://www.oogle.com
+2025-02-23 09:00:33,763 - python - INFO - URL is safe: https://www.oogle.com
+2025-02-23 09:00:33,942 - python - INFO - URL is safe: https://www.oogle.com
+2025-02-23 09:00:34,135 - python - INFO - URL is safe: https://www.oogle.com
+2025-02-23 09:00:34,274 - python - INFO - URL is safe: https://www.oogle.com
+2025-02-23 09:00:34,452 - python - INFO - URL is safe: https://www.oogle.com
+2025-02-23 09:00:34,613 - python - INFO - URL is safe: https://www.oogle.com
+2025-02-23 09:00:34,775 - python - INFO - URL is safe: https://www.oogle.com
+2025-02-23 09:00:38,818 - python - INFO - URL is safe: https://www.ogle.com
+2025-02-23 09:00:39,704 - python - INFO - URL is safe: https://www.ogle.com
+2025-02-23 09:00:39,883 - python - INFO - URL is safe: https://www.ogle.com
+2025-02-23 09:00:40,069 - python - INFO - URL is safe: https://www.ogle.com
+2025-02-23 09:00:40,236 - python - INFO - URL is safe: https://www.ogle.com
+2025-02-23 09:00:40,404 - python - INFO - URL is safe: https://www.ogle.com
+2025-02-23 09:00:40,578 - python - INFO - URL is safe: https://www.ogle.com
+2025-02-23 09:00:40,729 - python - INFO - URL is safe: https://www.ogle.com
+2025-02-23 09:00:40,937 - python - INFO - URL is safe: https://www.ogle.com
+2025-02-23 09:00:41,097 - python - INFO - URL is safe: https://www.ogle.com
+2025-02-23 09:00:41,279 - python - INFO - URL is safe: https://www.ogle.com
+2025-02-23 09:00:41,418 - python - INFO - URL is safe: https://www.ogle.com
+2025-02-23 09:00:41,541 - python - INFO - URL is safe: https://www.ogle.com
+2025-02-23 09:00:41,695 - python - INFO - URL is safe: https://www.ogle.com
+2025-02-23 09:00:46,269 - python - INFO - URL is safe: http://www.ogle.com
+2025-02-23 09:00:50,516 - python - INFO - URL is safe: htt://www.ogle.com
+2025-02-23 09:00:51,411 - python - INFO - URL is safe: htt://www.ogle.com
+2025-02-23 09:00:55,418 - python - INFO - URL is safe: htt://www.o
+2025-02-23 09:00:57,075 - python - INFO - URL added to blacklist: htt://www.o
+2025-02-23 09:01:05,342 - python - INFO - URL is safe: https://www.bank-security-login.com
+2025-02-23 09:01:21,417 - python - INFO - URL is safe: https://www.bank-security-login.com
+2025-02-23 09:01:24,266 - python - INFO - URL is safe: https://www.bank-security-login.com
+2025-02-23 09:01:24,636 - python - INFO - URL is safe: https://www.bank-security-login.com
+2025-02-23 09:01:25,147 - python - INFO - URL is safe: https://www.bank-security-login.com
+2025-02-23 09:01:43,267 - python - INFO - URL is safe: http://www.bank-security-login.com
+2025-02-23 09:01:44,364 - python - INFO - URL is safe: http://www.bank-security-login.com
+2025-02-23 09:01:55,151 - python - INFO - URL is safe: http://www.bank-security.com
+2025-02-23 09:01:56,630 - python - INFO - URL is safe: http://www.bank-security.com
+2025-02-23 09:01:57,211 - python - INFO - URL is safe: http://www.bank-security.com
+2025-02-23 09:01:57,417 - python - INFO - URL is safe: http://www.bank-security.com
+2025-02-23 09:02:42,480 - python - INFO - URL is safe: http://www.bank-security.com
+2025-02-23 12:05:38,206 - python - INFO - URL is safe: https://www.google.com
+2025-02-23 12:05:44,106 - python - INFO - URL is safe: https://www.google.com
+2025-02-23 12:05:53,119 - python - INFO - URL is safe: http://www.google.com
+2025-02-23 12:05:54,107 - python - INFO - URL is safe: http://www.google.com
+2025-02-23 12:06:00,568 - python - INFO - URL is safe: https://www.bank-security-login.com
+2025-02-23 12:06:01,521 - python - INFO - URL is safe: https://www.bank-security-login.com
+2025-02-23 12:20:52,791 - python - INFO - URL is safe: https://www.google.com
+2025-02-23 12:20:58,869 - python - INFO - URL is safe: http://www.google.com
+2025-02-23 12:21:13,103 - python - INFO - URL is safe: http://www.bank-secure-login.com
+2025-02-23 12:21:24,085 - python - INFO - URL is safe: http://wwwpaypal.com
+2025-02-23 12:21:27,341 - python - INFO - URL is safe: http://www.paypal.com
+2025-02-23 13:22:25,719 - python - INFO - URL is safe: https://www.bank-security-login.com
+2025-02-23 13:22:32,715 - python - INFO - URL is safe: https://www.bank-security-login.com
+2025-02-23 13:23:39,440 - python - INFO - URL is safe: https://www.bank-security-login.com
+2025-02-23 13:49:27,707 - python - INFO - URL is safe: https://www.bank-security-login.com
+2025-02-23 13:50:07,071 - python - INFO - URL added to blacklist: https://www.bank-security-login.com
+2025-02-23 13:58:53,109 - python - INFO - URL is safe: https://www.google.com
+2025-02-23 14:16:45,359 - python - INFO - URL is safe: https://www.google.com
+2025-02-23 14:20:02,922 - python - INFO - URL is safe: https://www.google.com
+2025-02-23 14:32:58,738 - python - INFO - URL is safe: https://www.google.com
+2025-02-23 15:29:41,687 - python - INFO - URL is safe: https://www.google.com
+2025-02-23 15:29:50,041 - python - INFO - URL is safe: http://www.gogle.com
+2025-02-23 15:29:51,554 - python - INFO - URL is safe: http://www.gogle.com
+2025-02-23 15:32:15,075 - python - INFO - Blacklisted URL detected: https://www.bank-security-login.com
+2025-02-23 15:32:27,343 - python - INFO - URL is safe: https://www.google.com
+2025-02-23 15:32:40,027 - python - INFO - URL is safe: http://www.paypal.com
+2025-02-23 15:32:42,650 - python - INFO - URL is safe: http://www.paypal.com
+2025-02-23 15:32:43,760 - python - INFO - URL is safe: http://www.paypal.com
+2025-02-23 15:32:54,615 - python - INFO - URL is safe: http://www.amazon.com
+2025-02-23 15:33:07,789 - python - INFO - Blacklisted URL detected: https://www.bank-security-login.com
+2025-02-23 15:33:57,275 - uvicorn.error - INFO - Started server process [236920]
+2025-02-23 15:33:57,275 - uvicorn.error - INFO - Started server process [243536]
+2025-02-23 15:33:57,275 - uvicorn.error - INFO - Started server process [241816]
+2025-02-23 15:33:57,275 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:34:00,668 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:34:02,359 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:34:02,359 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:34:00,679 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:34:04,064 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:35:03,297 - python - INFO - URL is safe: http://example-phishing.com
+2025-02-23 15:39:32,276 - python - INFO - Blacklisted URL detected: https://www.bank-security-login.com
+2025-02-23 15:39:33,506 - python - INFO - Blacklisted URL detected: https://www.bank-security-login.com
+2025-02-23 15:39:34,406 - python - INFO - Blacklisted URL detected: https://www.bank-security-login.com
+2025-02-23 15:39:35,346 - python - INFO - Blacklisted URL detected: https://www.bank-security-login.com
+2025-02-23 15:45:24,677 - uvicorn.error - INFO - Started server process [240000]
+2025-02-23 15:45:24,677 - uvicorn.error - INFO - Started server process [243688]
+2025-02-23 15:45:24,678 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:45:24,678 - uvicorn.error - INFO - Started server process [98588]
+2025-02-23 15:45:24,679 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:45:24,709 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:45:24,710 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:45:24,711 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:46:25,162 - uvicorn.error - INFO - Started server process [9244]
+2025-02-23 15:46:25,163 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:46:25,165 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:46:25,547 - uvicorn.error - INFO - Started server process [233488]
+2025-02-23 15:46:25,567 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:46:25,570 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:46:25,595 - uvicorn.error - INFO - Started server process [161184]
+2025-02-23 15:46:25,599 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:46:25,601 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:46:29,910 - uvicorn.error - INFO - Started server process [227716]
+2025-02-23 15:46:29,911 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:46:29,911 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:46:33,199 - uvicorn.error - INFO - Started server process [239908]
+2025-02-23 15:46:33,199 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:46:33,199 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:46:38,404 - uvicorn.error - INFO - Started server process [243172]
+2025-02-23 15:46:39,470 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:46:39,498 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:46:39,956 - uvicorn.error - INFO - Started server process [238444]
+2025-02-23 15:46:39,956 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:46:39,956 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:46:40,287 - uvicorn.error - INFO - Started server process [229008]
+2025-02-23 15:46:40,287 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:46:40,287 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:51:00,806 - uvicorn.error - INFO - Started server process [39944]
+2025-02-23 15:51:00,806 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:51:00,806 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:51:01,117 - uvicorn.error - INFO - Started server process [216916]
+2025-02-23 15:51:01,140 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:51:01,157 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:51:01,574 - uvicorn.error - INFO - Started server process [238168]
+2025-02-23 15:51:01,574 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:51:01,574 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:53:46,203 - uvicorn.error - INFO - Started server process [242860]
+2025-02-23 15:53:46,203 - uvicorn.error - INFO - Started server process [241144]
+2025-02-23 15:53:46,203 - uvicorn.error - INFO - Started server process [163396]
+2025-02-23 15:53:46,203 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:53:46,203 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:53:46,203 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:53:46,203 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:53:46,208 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:54:36,525 - uvicorn.error - INFO - Started server process [236684]
+2025-02-23 15:54:36,525 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:54:36,525 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:54:36,617 - uvicorn.error - INFO - Started server process [251724]
+2025-02-23 15:54:36,617 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:54:36,617 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:54:36,856 - uvicorn.error - INFO - Started server process [251880]
+2025-02-23 15:54:36,856 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:54:36,856 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:54:40,182 - uvicorn.error - INFO - Started server process [98972]
+2025-02-23 15:54:40,182 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:54:40,185 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:54:40,199 - uvicorn.error - INFO - Started server process [192312]
+2025-02-23 15:54:40,199 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:54:40,203 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:54:40,216 - uvicorn.error - INFO - Started server process [239952]
+2025-02-23 15:54:40,216 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:54:40,221 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:54:41,740 - uvicorn.error - INFO - Started server process [158980]
+2025-02-23 15:54:41,740 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:54:41,740 - uvicorn.error - INFO - Started server process [242568]
+2025-02-23 15:54:41,741 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:54:41,741 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:54:41,743 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 15:54:42,043 - uvicorn.error - INFO - Started server process [243096]
+2025-02-23 15:54:42,043 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 15:54:42,043 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 16:18:50,798 - uvicorn.error - INFO - Started server process [238204]
+2025-02-23 16:18:50,798 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 16:18:50,801 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 16:18:50,801 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 16:18:50,801 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 16:18:50,805 - uvicorn.error - INFO - Started server process [243492]
+2025-02-23 16:18:50,805 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 16:18:50,810 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 16:20:50,916 - uvicorn.error - INFO - Started server process [241828]
+2025-02-23 16:20:50,917 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 16:20:50,917 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 16:20:51,133 - uvicorn.error - INFO - Started server process [238396]
+2025-02-23 16:20:51,133 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 16:20:51,136 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 16:20:51,208 - uvicorn.error - INFO - Started server process [251500]
+2025-02-23 16:20:51,211 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 16:20:51,212 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 16:51:54,813 - uvicorn.error - INFO - Started server process [240124]
+2025-02-23 16:51:54,813 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 16:51:54,813 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 16:51:54,853 - uvicorn.error - INFO - Started server process [242960]
+2025-02-23 16:51:54,853 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 16:51:54,868 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 16:51:55,596 - uvicorn.error - INFO - Started server process [248228]
+2025-02-23 16:51:55,596 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 16:51:55,612 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 16:56:08,359 - uvicorn.error - INFO - Started server process [247792]
+2025-02-23 16:56:08,359 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 16:56:08,359 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 16:56:08,417 - uvicorn.error - INFO - Started server process [251176]
+2025-02-23 16:56:08,434 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 16:56:08,438 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 16:56:08,751 - uvicorn.error - INFO - Started server process [247884]
+2025-02-23 16:56:08,751 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 16:56:08,751 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 16:57:26,900 - python - INFO - Blacklisted URL detected: https://www.bank-security-login.com
+2025-02-23 16:59:43,202 - python - INFO - URL is safe: https://www.google.com
+2025-02-23 17:02:20,315 - python - INFO - URL is safe: https://www.google.com
+2025-02-23 17:02:21,497 - python - INFO - URL is safe: https://www.google.com
+2025-02-23 17:04:36,134 - python - INFO - URL is safe: http://example-phishing.com
+2025-02-23 17:13:26,807 - uvicorn.error - INFO - Started server process [244728]
+2025-02-23 17:13:26,809 - uvicorn.error - INFO - Started server process [251712]
+2025-02-23 17:13:26,810 - uvicorn.error - INFO - Started server process [242916]
+2025-02-23 17:13:26,815 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 17:13:26,816 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 17:13:26,819 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 17:13:26,820 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 17:13:26,837 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 17:13:26,842 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 17:14:05,353 - python - INFO - URL is safe: http://example-phishing.com
+2025-02-23 17:23:48,363 - uvicorn.error - INFO - Started server process [243444]
+2025-02-23 17:23:48,378 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 17:23:48,378 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 17:23:48,424 - uvicorn.error - INFO - Started server process [236780]
+2025-02-23 17:23:48,441 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 17:23:48,455 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 17:23:48,710 - uvicorn.error - INFO - Started server process [245792]
+2025-02-23 17:23:48,710 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 17:23:48,730 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 17:23:54,995 - uvicorn.error - INFO - Started server process [250508]
+2025-02-23 17:23:54,995 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 17:23:54,995 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 18:05:54,340 - uvicorn.error - INFO - Started server process [242828]
+2025-02-23 18:05:54,340 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 18:05:54,340 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 18:29:30,744 - uvicorn.error - INFO - Started server process [241580]
+2025-02-23 18:29:30,744 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 18:29:30,744 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 18:29:30,744 - uvicorn.error - INFO - Started server process [237364]
+2025-02-23 18:29:30,744 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 18:29:30,744 - uvicorn.error - INFO - Started server process [241572]
+2025-02-23 18:29:30,744 - uvicorn.error - INFO - Started server process [235140]
+2025-02-23 18:29:30,744 - uvicorn.error - INFO - Started server process [248112]
+2025-02-23 18:29:30,764 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 18:29:30,772 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 18:29:30,772 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 18:29:30,776 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 18:29:30,780 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 18:29:30,780 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 18:29:30,780 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 18:30:05,432 - uvicorn.error - INFO - Started server process [251020]
+2025-02-23 18:30:05,432 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 18:30:05,447 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 18:37:31,694 - uvicorn.error - INFO - Started server process [251040]
+2025-02-23 18:37:31,694 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 18:37:31,698 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 18:42:43,374 - uvicorn.error - INFO - Started server process [243920]
+2025-02-23 18:42:43,391 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 18:42:43,449 - uvicorn.error - INFO - Started server process [240620]
+2025-02-23 18:42:43,451 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 18:42:43,453 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 18:42:43,463 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 18:42:43,535 - uvicorn.error - INFO - Started server process [249984]
+2025-02-23 18:42:43,542 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 18:42:43,542 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 18:42:43,649 - uvicorn.error - INFO - Started server process [241688]
+2025-02-23 18:42:43,649 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 18:42:43,649 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 18:42:43,675 - uvicorn.error - INFO - Started server process [241132]
+2025-02-23 18:42:43,677 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 18:42:43,679 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 18:42:43,775 - uvicorn.error - INFO - Started server process [249404]
+2025-02-23 18:42:43,783 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 18:42:43,791 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 18:42:43,896 - uvicorn.error - INFO - Started server process [250484]
+2025-02-23 18:42:43,896 - uvicorn.error - INFO - Waiting for application startup.
+2025-02-23 18:42:43,896 - uvicorn.error - INFO - Application startup complete.
+2025-02-23 18:52:39,407 - python - INFO - URL is safe: https://www.google.com
+2025-02-23 18:52:49,907 - python - INFO - Blacklisted URL detected: https://www.bank-security-login.com
+2025-02-23 19:59:29,981 - python - INFO - URL is safe: https://www.google.com
+2025-02-23 20:56:17,665 - python - INFO - Blacklisted URL detected: https://www.bank-security-login.com
+2025-02-23 21:01:12,216 - python - INFO - Blacklisted URL detected: https://www.bank-security-login.com
+2025-02-23 21:01:22,940 - python - INFO - URL is safe: https://www.google.com
+2025-02-23 21:01:26,009 - python - INFO - URL added to blacklist: https://www.google.com

@@ -1,0 +1,7 @@
+fastapi==0.95.1  # Or latest compatible version
+uvicorn[standard]==0.22.0 # Or latest compatible version
+python-dotenv==1.0.0 # Or latest compatible version
+requests==2.31.0  # Or latest compatible version
+pydantic==1.10.12 # Or latest compatible version
+whois==0.9.4 # Or latest compatible version
+fastapi-cors-middleware==0.17.0  # Or latest compatible version
