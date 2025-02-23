@@ -1,131 +1,116 @@
-# flake8: noqa
-from pydantic import dataclasses
-from pydantic.annotated_types import create_model_from_namedtuple, create_model_from_typeddict
-from pydantic.class_validators import root_validator, validator
-from pydantic.config import BaseConfig, ConfigDict, Extra
-from pydantic.decorator import validate_arguments
-from pydantic.env_settings import BaseSettings
-from pydantic.error_wrappers import ValidationError
-from pydantic.errors import *
-from pydantic.fields import Field, PrivateAttr, Required
-from pydantic.main import *
-from pydantic.networks import *
-from pydantic.parse import Protocol
-from pydantic.tools import *
-from pydantic.types import *
-from pydantic.version import VERSION, compiled
+"""
+pip._vendor is for vendoring dependencies of pip to prevent needing pip to
+depend on something external.
 
-__version__ = VERSION
+Files inside of pip._vendor should be considered immutable and should only be
+updated to versions from upstream.
+"""
+from __future__ import absolute_import
 
-# WARNING __all__ from pydantic.errors is not included here, it will be removed as an export here in v2
-# please use "from pydantic.errors import ..." instead
-__all__ = [
-    # annotated types utils
-    'create_model_from_namedtuple',
-    'create_model_from_typeddict',
-    # dataclasses
-    'dataclasses',
-    # class_validators
-    'root_validator',
-    'validator',
-    # config
-    'BaseConfig',
-    'ConfigDict',
-    'Extra',
-    # decorator
-    'validate_arguments',
-    # env_settings
-    'BaseSettings',
-    # error_wrappers
-    'ValidationError',
-    # fields
-    'Field',
-    'Required',
-    # main
-    'BaseModel',
-    'create_model',
-    'validate_model',
-    # network
-    'AnyUrl',
-    'AnyHttpUrl',
-    'FileUrl',
-    'HttpUrl',
-    'stricturl',
-    'EmailStr',
-    'NameEmail',
-    'IPvAnyAddress',
-    'IPvAnyInterface',
-    'IPvAnyNetwork',
-    'PostgresDsn',
-    'CockroachDsn',
-    'AmqpDsn',
-    'RedisDsn',
-    'MongoDsn',
-    'KafkaDsn',
-    'validate_email',
-    # parse
-    'Protocol',
-    # tools
-    'parse_file_as',
-    'parse_obj_as',
-    'parse_raw_as',
-    'schema_of',
-    'schema_json_of',
-    # types
-    'NoneStr',
-    'NoneBytes',
-    'StrBytes',
-    'NoneStrBytes',
-    'StrictStr',
-    'ConstrainedBytes',
-    'conbytes',
-    'ConstrainedList',
-    'conlist',
-    'ConstrainedSet',
-    'conset',
-    'ConstrainedFrozenSet',
-    'confrozenset',
-    'ConstrainedStr',
-    'constr',
-    'PyObject',
-    'ConstrainedInt',
-    'conint',
-    'PositiveInt',
-    'NegativeInt',
-    'NonNegativeInt',
-    'NonPositiveInt',
-    'ConstrainedFloat',
-    'confloat',
-    'PositiveFloat',
-    'NegativeFloat',
-    'NonNegativeFloat',
-    'NonPositiveFloat',
-    'FiniteFloat',
-    'ConstrainedDecimal',
-    'condecimal',
-    'ConstrainedDate',
-    'condate',
-    'UUID1',
-    'UUID3',
-    'UUID4',
-    'UUID5',
-    'FilePath',
-    'DirectoryPath',
-    'Json',
-    'JsonWrapper',
-    'SecretField',
-    'SecretStr',
-    'SecretBytes',
-    'StrictBool',
-    'StrictBytes',
-    'StrictInt',
-    'StrictFloat',
-    'PaymentCardNumber',
-    'PrivateAttr',
-    'ByteSize',
-    'PastDate',
-    'FutureDate',
-    # version
-    'compiled',
-    'VERSION',
-]
+import glob
+import os.path
+import sys
+
+# Downstream redistributors which have debundled our dependencies should also
+# patch this value to be true. This will trigger the additional patching
+# to cause things like "six" to be available as pip.
+DEBUNDLED = False
+
+# By default, look in this directory for a bunch of .whl files which we will
+# add to the beginning of sys.path before attempting to import anything. This
+# is done to support downstream re-distributors like Debian and Fedora who
+# wish to create their own Wheels for our dependencies to aid in debundling.
+WHEEL_DIR = os.path.abspath(os.path.dirname(__file__))
+
+
+# Define a small helper function to alias our vendored modules to the real ones
+# if the vendored ones do not exist. This idea of this was taken from
+# https://github.com/kennethreitz/requests/pull/2567.
+def vendored(modulename):
+    vendored_name = "{0}.{1}".format(__name__, modulename)
+
+    try:
+        __import__(modulename, globals(), locals(), level=0)
+    except ImportError:
+        # We can just silently allow import failures to pass here. If we
+        # got to this point it means that ``import pip._vendor.whatever``
+        # failed and so did ``import whatever``. Since we're importing this
+        # upfront in an attempt to alias imports, not erroring here will
+        # just mean we get a regular import error whenever pip *actually*
+        # tries to import one of these modules to use it, which actually
+        # gives us a better error message than we would have otherwise
+        # gotten.
+        pass
+    else:
+        sys.modules[vendored_name] = sys.modules[modulename]
+        base, head = vendored_name.rsplit(".", 1)
+        setattr(sys.modules[base], head, sys.modules[modulename])
+
+
+# If we're operating in a debundled setup, then we want to go ahead and trigger
+# the aliasing of our vendored libraries as well as looking for wheels to add
+# to our sys.path. This will cause all of this code to be a no-op typically
+# however downstream redistributors can enable it in a consistent way across
+# all platforms.
+if DEBUNDLED:
+    # Actually look inside of WHEEL_DIR to find .whl files and add them to the
+    # front of our sys.path.
+    sys.path[:] = glob.glob(os.path.join(WHEEL_DIR, "*.whl")) + sys.path
+
+    # Actually alias all of our vendored dependencies.
+    vendored("cachecontrol")
+    vendored("certifi")
+    vendored("distlib")
+    vendored("distro")
+    vendored("packaging")
+    vendored("packaging.version")
+    vendored("packaging.specifiers")
+    vendored("pkg_resources")
+    vendored("platformdirs")
+    vendored("progress")
+    vendored("pyproject_hooks")
+    vendored("requests")
+    vendored("requests.exceptions")
+    vendored("requests.packages")
+    vendored("requests.packages.urllib3")
+    vendored("requests.packages.urllib3._collections")
+    vendored("requests.packages.urllib3.connection")
+    vendored("requests.packages.urllib3.connectionpool")
+    vendored("requests.packages.urllib3.contrib")
+    vendored("requests.packages.urllib3.contrib.ntlmpool")
+    vendored("requests.packages.urllib3.contrib.pyopenssl")
+    vendored("requests.packages.urllib3.exceptions")
+    vendored("requests.packages.urllib3.fields")
+    vendored("requests.packages.urllib3.filepost")
+    vendored("requests.packages.urllib3.packages")
+    vendored("requests.packages.urllib3.packages.ordered_dict")
+    vendored("requests.packages.urllib3.packages.six")
+    vendored("requests.packages.urllib3.packages.ssl_match_hostname")
+    vendored("requests.packages.urllib3.packages.ssl_match_hostname."
+             "_implementation")
+    vendored("requests.packages.urllib3.poolmanager")
+    vendored("requests.packages.urllib3.request")
+    vendored("requests.packages.urllib3.response")
+    vendored("requests.packages.urllib3.util")
+    vendored("requests.packages.urllib3.util.connection")
+    vendored("requests.packages.urllib3.util.request")
+    vendored("requests.packages.urllib3.util.response")
+    vendored("requests.packages.urllib3.util.retry")
+    vendored("requests.packages.urllib3.util.ssl_")
+    vendored("requests.packages.urllib3.util.timeout")
+    vendored("requests.packages.urllib3.util.url")
+    vendored("resolvelib")
+    vendored("rich")
+    vendored("rich.console")
+    vendored("rich.highlighter")
+    vendored("rich.logging")
+    vendored("rich.markup")
+    vendored("rich.progress")
+    vendored("rich.segment")
+    vendored("rich.style")
+    vendored("rich.text")
+    vendored("rich.traceback")
+    if sys.version_info < (3, 11):
+        vendored("tomli")
+    vendored("truststore")
+    vendored("urllib3")
